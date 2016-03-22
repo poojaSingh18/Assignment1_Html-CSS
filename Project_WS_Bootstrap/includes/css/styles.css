@@ -1,0 +1,543 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+   body {
+   	-webkit-font-smoothing: antialiased;
+   	text-rendering: optimizelegibility;
+   }
+   ul.unstyled {
+   	list-style: none;
+   	padding: 0;
+   }
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #header{
+     background-color:#99004d;
+     height:100px;
+   }
+
+   #search{
+     height:20px;
+     width:20px;
+
+   }
+
+  #logo{
+    height:100px;
+    width:100px;
+  }
+
+   .heading h1{
+     margin-top: 20px;
+     font-size:36pt;
+     margin-left:20px;
+       font-family:monospace;
+       font-weight:bolder;
+       font:'Great Vibes', Helvetica, sans-serif;
+    color: #cc0000;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+
+   }
+
+   .heading h3{
+   font-weight:bold;
+     margin-top:0px;
+   padding-left:22px;
+     font-size: 14pt;
+     color:#66ffff;
+     font-family:monospace;
+   }
+
+   #menu
+   {
+     margin-top:20px;
+   }
+
+   #menu ul li a{
+     color:white;
+     font-weight: bold;
+     font-size: 11pt;
+   }
+
+  #dd-menu li a{
+    color:black;
+    font-family: sans-serif;
+  }
+
+#slide1,#slide2,#slide3,#slide4{
+    width:1263px;
+      height:570px;
+    }
+
+
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#myCarousel{
+  height:600px;
+}
+
+.s-heading h1{
+  font-weight: bolder;
+  font-size: 48pt;
+
+}
+
+.s-heading p{
+   font-size: 20pt;
+   font-style: italic;
+   font-family: monospace;
+   font-weight: bold;
+   margin-bottom: 28px;
+
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+.section{
+  margin-top: 30px;
+}
+   #hero-unit{
+     width: 700px;
+     margin: 40px 0px 20px 300px;
+   }
+
+   #hero1{
+  visibility: visible;
+   animation-name: fadeInUp;
+}
+
+  #hero2{
+  visibility: visible;
+  animation-delay: 0.5s;
+   animation-name: fadeInUp;
+}
+
+#hero3{
+  visibility: visible; animation-delay: 1s; animation-name: fadeInUp;
+}
+.templatecontent h1{
+  color:#6600cc;
+  font-style: normal;
+  font-weight: bolder;
+  font-family: inherit;
+    text-align: center;
+    font-size: 24pt;
+    margin-bottom: 20px;
+    margin-top:10px;
+
+}
+
+.templatecontent img{
+  width:400px;
+  height:150px;
+ display:block;
+ margin:auto;
+ margin-bottom:20px;
+}
+
+.templatecontent h6{
+  font-size:11pt;
+  color:#cc0066;
+text-align: center;
+  font-style: normal;
+  font-weight: bolder;
+  font-family: monospace;
+    text-align: center;
+
+
+}
+
+.info-container{
+
+  margin-top:50px;
+  margin-bottom: 50px;
+  z-index:20;
+  display: block;
+   margin: auto;
+
+}
+
+.outer{
+
+  display:block;
+   margin: auto;
+}
+
+#info1{
+  width: 250px;
+  height: 200px;
+  padding-top: 47px;
+  border-radius: 50%;
+  background-color: #7030a0;
+  text-align: center;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  margin-right: 0;
+}
+
+#info1 a{
+color: white;
+font-size: 20px;
+}
+
+
+#info2{
+  width: 250px;
+  height: 200px;
+  padding-top: 50px;
+  border-radius: 50%;
+  background-color: #cc9900;
+  text-align: center;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  margin-right: 0;
+}
+ #info2 a{
+   color: white;
+   font-size: 20px;
+ }
+
+#info3{
+  width: 250px;
+  height: 200px;
+   padding-top: 50px;
+   border-radius: 50%;
+   background-color: #009999;
+  text-align: center;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  margin-right: 0;
+
+}
+
+#info3 a{
+  color: white;
+  font-size: 20px;
+}
+
+
+/*who we are--->
+/
+ * Global add-ons
+ */
+
+
+ /* Placeholder dashboard ideas
+ */
+
+
+ .sep-text {
+    position: relative;
+    margin: 0 0 30px 0;
+    padding: 0 0 5px 0;
+    text-align: center;
+}
+
+.sep-text.centered .sep-text-before, .sep-text.centered .sep-text-after {
+    width: 50%;
+}
+
+.sep-text.centered .sep-text-before, .sep-text.centered .sep-text-before {
+    width: 50%;
+}
+
+.regular-title-wrapper {
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Droid serif', serif;
+    font-size: 36px;
+    font-weight: 400;
+     line-height: 44px;
+}
+.regular-title-wrapper:before,
+.regular-title-wrapper:after {
+    background-color: #993333;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.regular-title-wrapper:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.regular-title-wrapper:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+
+
+
+.placeholders {
+  margin-bottom: 30px;
+  text-align: center;
+  display: block;
+   margin: auto;
+}
+.placeholders h4 {
+  margin-bottom: 0;
+  font-style:normal;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 20pt;
+}
+.placeholder {
+  margin-bottom: 20px;
+}
+
+.placeholders span{
+  font-style: italic;
+  color:#cc7a00;
+  font-family: serif;
+  text-align:center;
+
+}
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+  width:250px;
+  height:250px;
+}
+
+
+
+/*----------modal css-----*/
+#modalHeader{
+  background-color:#4d4dff;
+
+}
+.modal-title{
+   font-weight: bolder;
+}
+
+.address{
+  margin-left:10px;
+  width:250px;
+}
+.address h4{
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.details h4 small{
+  color:#ff6600;
+  font-style: italic;
+
+}
+.services-button-wrap span{
+color:#ff0000;
+font-weight: bold;
+font-family: monospace;
+}
+
+
+/*----footer-------*/
+
+/*----CSS for joinnow----*/
+
+#joinnow{
+ margin: 0;
+ background-image: url('../img/light_wallpaper_background.jpg');
+ background-color: #ffb3d9;
+ background-size: auto 500px;
+ display:block;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+  padding:50px 50px 50px 20px;
+}
+
+#impact-item-1{
+  margin-bottom:70px;
+}
+#impact-item-1 .impact-item__left{
+color:black;
+font-size: 72pt;
+font-style: normal;
+font-weight: bolder;
+font-family: serif;
+
+}
+
+
+#impact-item-1 .impact-item__right{
+  float:right;
+  font-size: 20pt;
+  font-style: normal;
+  font-family: cursive;
+  color: #9900cc;
+  line-height: 30px;
+  margin-top:40px;
+
+}
+
+
+#impact-item-2 .impact-item__left{
+color:black;
+font-size: 72pt;
+font-style: normal;
+font-weight: bolder;
+font-family: serif;
+
+}
+
+#impact-item-2 .impact-item__right{
+
+  float:right;
+  font-size: 20pt;
+  font-style: normal;
+  font-family:cursive;
+  color: #9900cc;
+  line-height: 40px;
+  margin-top:30px;
+
+}
+
+/*---up-----*/
+
+
+
+#up{
+  margin-top:50px;
+}
+
+#tag{
+  font-size: 48pt;
+  line-height:70px;
+  font-weight: bolder;
+  text-shadow: 0 1px 0 #ccc,
+                 0 2px 0 #c9c9c9,
+                 0 3px 0 #bbb,
+                 0 4px 0 #b9b9b9,
+                 0 5px 0 #aaa,
+                 0 6px 1px rgba(0,0,0,.1),
+                 0 0 5px rgba(0,0,0,.1),
+                 0 1px 3px rgba(0,0,0,.3),
+                 0 3px 5px rgba(0,0,0,.2),
+                 0 5px 10px rgba(0,0,0,.25),
+                 0 10px 10px rgba(0,0,0,.2),
+                 0 20px 20px rgba(0,0,0,.15);
+
+
+}
+
+#up a{
+  margin-top:20px;
+}
+/*---end----up----*/
+
+/*end join now---*/
+
+
+
+
+
+
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+/*------footer-----*/
+
+
+.footer {
+  /* Set the fixed height of the footer here */
+  background-color: #33334d;
+  color:white;
+padding:20px 30px 10px 30px;
+}
+
+
+
+.footer_title {
+	display: block;
+	height: 40px;
+	margin-bottom: 30px;
+}
+ #form{
+   margin-left:40px;
+ }
+.footer_title h5 {
+	color: #ceb31c;
+	margin-bottom: 0;
+}
+
+.twitter h5 { color: #47add3 }
+
+.footer_title img {
+	float: left;
+	margin-right: 20px;
+  width: 30px;
+  height:30px;
+}
+
+#newsletter_input { background: #747474; width: 200px; padding: 3px 5px; border: 1px solid #000 }
+#newsletter_submit { background: none; border: none; color: #fff; cursor: pointer }
+
+}
+#copyright{
+  	text-align: center;
+  	color: #9a9a9a;
+    background-color:#00004d;
+    margin-bottom:10px
+
+}
+
+
+#copyright a{
+    color: #fff;
+  text-decoration: underline;
+  font-style: italic;
+
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+.container{
+  max-width: 1263px;
+}
+}
